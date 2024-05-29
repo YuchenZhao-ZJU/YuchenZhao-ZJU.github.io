@@ -366,11 +366,16 @@
             </li>
 
 
-            <img src="img/Cement/cement process.png" alt="cement.png" />
-            <figcaption>Flow diagram of the cement clinker burning process.</figcaption>
+            <!-- <img src="img/Cement/cement process.png" alt="cement.png" />
+            <figcaption>Flow diagram of the cement clinker burning process.</figcaption> -->
 
+            <!-- <img src="img/Cement/framework.png" alt="framework.png" />
+            <figcaption>The proposed end-to-end soft sensor framework.</figcaption> -->
 
-            <li>
+            <img src="img/Cement/soft sensing app.png" alt="soft sensing app.png" />
+            <figcaption>Developed real-time f-CaO content soft sensing interface. The actual values of every parameter are masked to protect business privacy.</figcaption>
+
+            <!-- <li>
               <span>
                 As one of the most fundamental industries in the world, the cement industry produces billions of tons of building
                 materials every year. Among the cement manufacturing processes, the clinker burning process transforms the raw
@@ -393,16 +398,7 @@
                 As a matter of fact, the ability to integrate multisource information is crucial for the next generation of soft sensors.
                 In this project, we develop a novel end-to-end soft sensor framework that integrates process variable data, flame images, 
                 and mechanistic knowledge from the clinker burning process to jointly estimate the f-CaO content.
-              </span>
-            </li>
 
-
-            <img src="img/Cement/framework.png" alt="framework.png" />
-            <figcaption>The proposed end-to-end soft sensor framework.</figcaption>
-
-
-            <li>
-              <span>
                 This framework takes process variable data and flame images as inputs, 
                 and a rotary kiln temperature model is established based on mechanistic knowledge to construct mechanistic features.
                 By using a feature extraction network composed of image feature extraction networks and temporal autoencoders, 
@@ -417,16 +413,24 @@
                 Curretnly, the framework has been deployed on the Alibaba Cloud's Industrial Brain&reg; platform, 
                 providing services to the company's clients in the cement industry.
               </span>
+            </li> -->
+
+
+            <li>
+              <span>
+                The cement industry is a fundamental global industry that produces billions of tons of building materials each year. 
+                The clinker burning process is a complex and essential step in cement manufacturing, determining the quality of cement products. 
+                The presence of free calcium oxide (f-CaO) is crucial for assessing cement quality and energy consumption. 
+                Traditional measurement methods for f-CaO have a time delay due to offline chemical analysis. 
+                To address this, we developed a new soft sensor framework that process variable data, flame images, and mechanistic knowledge to estimate f-CaO content in real-time. 
+                This framework significantly improves f-CaO soft sensing performance, reducing RMSE by about 12% and increasing correlation by nearly 30% compared to the state-of-the-art model DFETM. 
+                This framework is now deployed on Alibaba Cloud's Industrial Brain® platform, serving its clients in the cement industry.
+              </span>
             </li>
 
 
-            <img src="img/Cement/kiln temp app.png" alt="kiln temp app.png" />
-            <figcaption>Developed kiln status monitoring interface. The actual values of every parameter are masked to protect business privacy.</figcaption>
-
-
-
-            <img src="img/Cement/soft sensing app.png" alt="soft sensing app.png" />
-            <figcaption>Developed real-time f-CaO content soft sensing interface.</figcaption>
+            <!-- <img src="img/Cement/kiln temp app.png" alt="kiln temp app.png" />
+            <figcaption>Developed kiln status monitoring interface. The actual values of every parameter are masked to protect business privacy.</figcaption> -->
 
             <br>
 
@@ -445,7 +449,7 @@
 
             <li>
               <span>
-                With advancements in computer technology and data accumulation, 
+                <!-- With advancements in computer technology and data accumulation, 
                 AI and machine learning methods are increasingly applied in quantitative finance. 
                 However, most models predict stock price changes rather than create a stock portfolio, 
                 which is the actual investment goal. Fund managers can filter risky or unfamiliar stocks, 
@@ -465,7 +469,16 @@
                 and the results demonstrate its effectiveness. 
                 Notably, significant improvements are observed when the scoring model is combined with the screening model. 
                 Experimental results indicate that the fused model is highly sensitive to the scale of the selected stocks and the length of the prediction period, 
-                implying that it can be quickly adjusted according to trading strategies.
+                implying that it can be quickly adjusted according to trading strategies. -->
+
+                With advancements in computer technology and data accumulation, 
+                AI and machine learning are increasingly used in quantitative finance, 
+                but most models focus on predicting stock prices rather than creating stock portfolios. 
+                Our work introduces a novel framework that combines scoring and screening models. 
+                The scoring model, using Seq2Seq and factor models, ranks stocks based on historical trading and factor data. 
+                The screening model, incorporating a novel discriminative model and a media sentiment model based on a weighted stock relation graph, is developed to detect anomalous stocks. 
+                we validate this framework in China's A-share market, and the framework shows significant improvements in portfolio stability and risk reduction, 
+                demonstrating high sensitivity to stock selection scale and prediction period, which allows for quick adjustments based on specific trading strategies.
               </span>
             </li>
 
@@ -484,22 +497,26 @@
             <img src="img/THOR/THOR.png" alt="THOR.png" />
             <figcaption>Overview of the developed system.</figcaption>
 
+            <img src="img/THOR/Machine.jpg" alt="Machine.jpg" />
+            <figcaption>Photograph of the THOR nitrogen fixation system.</figcaption>
+
             <li>
               <span>
-                It is widely acknowledged that current main method of producing nitrogen fertilizer is Haber nitrogen fixation process. 
-                While this great invention raised 40% of the world's population, it also causes serious energy and environmental problems.
-                The Haber process consumes one to two percent of the world's energy every year. 
-                It emits nearly 300 million tons of carbon dioxide, and a large amount of wastewater containing ammonia that is hard to dispose, 
-                which brings a heavy burden to the global environment. 
-
-                <br><br>We obtained inspiration from the old saying that "thunderstorms whipping up crops", which means that the nitrogen could be fixed through lightnings, 
-                and studied the mechanism of nitrogen fixation and simulated its process. 
-                Finally, we developed a small nitrogen fixation device based on non-thermal plasma catalysis. 
-                We named it "THOR", after the name of the god of thunder in Nordic mythology. 
+                The Haber nitrogen fixation process sustains 40% of the world's population but has significant energy and environmental drawbacks, 
+                consuming 1-2% of global energy annually and emitting nearly 300 million tons of CO₂ and ammonia-laden wastewater. 
+                Inspired by the idea that thunderstorms can fix nitrogen, 
+                we developed a small nitrogen fixation device based on non-thermal plasma catalysis, 
+                named "THOR" after the Norse god of thunder. 
+                Comprising a renewable energy interface, a non-thermal plasma generator, a multi-stage circulating absorption device, and an in situ reactor, 
+                THOR aims to be compact, efficient, quick-acting, and eco-friendly. 
+                Experiments and neural network simulations indicated that the system achieves a minimum nitrogen fixation energy consumption of 1.15 kWh per mol. 
+                Economically, a single generator can produce approximately 600kg of nitrogen fertilizer annually, reducing the combustion of 938kg of standard coal and 2.3 tons of CO₂ emissions. 
+                Our invention won the first prize in China's National Energy Conservation and Emission Reduction Competition, 
+                and as team leader, I received direct admission to ZJU's graduate school before my junior undergraduate year.
               </span>
             </li>
               
-            <img src="img/THOR/Process.png" alt="Process.png" />
+            <!-- <img src="img/THOR/Process.png" alt="Process.png" />
             <figcaption>Basic process of non-thermal plasma nitrogen fixation.</figcaption>
 
             <li>
@@ -508,10 +525,6 @@
                 This equipment is designed to achieve the goals of "small size, high efficiency, quick starting or stopping, and eco-friendly”, to fill the current blank in the field of small-scaled nitrogen fixation devices.
               </span>
             </li>
-
-
-            <img src="img/THOR/Machine.jpg" alt="Machine.jpg" />
-            <figcaption>Photograph of the THOR nitrogen fixation system.</figcaption>
 
             <li>
               <span>
@@ -528,9 +541,8 @@
               </span>
             </li>
 
-
             <img src="img/THOR/Lab photo.jpg" alt="Lab photo.jpg" />
-            <figcaption>A photo of me with my team members.</figcaption>
+            <figcaption>A photo of me with my team members.</figcaption> -->
 
           </ul>
 
@@ -574,9 +586,10 @@
             </li>
 
 
-            <img src="img/Work/Lujiazui.jpg" alt="Lujiazui.jpg" />
-            <figcaption>A view of Lujiazui Financial Cluster.</figcaption>
+            <!-- <img src="img/Work/Lujiazui.jpg" alt="Lujiazui.jpg" />
+            <figcaption>A view of Lujiazui Financial Cluster.</figcaption> -->
 
+            <br>
 
             <li>
               <span>
@@ -606,9 +619,11 @@
               </span>
             </li>
 
+            <br>
 
-            <img src="img/Work/Cloud.jpg" alt="Cloud.jpg" />
-            <figcaption>Alibaba Cloud Intelligence, Hangzhou Department.</figcaption>
+
+            <!-- <img src="img/Work/Cloud.jpg" alt="Cloud.jpg" />
+            <figcaption>Alibaba Cloud Intelligence, Hangzhou Department.</figcaption> -->
 
 
             <li>
@@ -641,9 +656,10 @@
               </span>
             </li>
 
+            <br>
 
-            <img src="img/Work/Tongdun.jpg" alt="Tongdun.jpg" />
-            <figcaption>Tongdun Technology, Hangzhou Department.</figcaption>
+            <!-- <img src="img/Work/Tongdun.jpg" alt="Tongdun.jpg" />
+            <figcaption>Tongdun Technology, Hangzhou Department.</figcaption> -->
 
 
             <li>
